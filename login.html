@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    
+    <div class="tela" id="tela">
+        <h1 id="titulo">LOGIN</h1>
+        <fieldset class="caixa-email" id="caixa-email">
+            <legend id="legenda-email">E-MAIL:</legend>
+            <input type="email" class="email" id="email" placeholder="Digite aqui seu e-mail">
+        </fieldset>
+        <fieldset class="caixa-senha" id="caixa-senha">
+            <legend id="legenda-senha">SENHA:</legend>
+            <input type="text" class="pass" id="pass" placeholder="Digite aqui sua senha">
+            <a href="#" class="recuperar" id="recuperar" onclick="recuperar()">Esqueceu sua senha?</a>
+            <span class="nao-possui-conta">Não tem uma conta? <a id="cadastrar" href="#">Cadastre-se</a></span>
+        </fieldset>
+        <input type="button" class="entrar" value="Entrar" onclick="acessar()">
+    </div>
+
+    <script>
+        function recuperar(){
+            alert("Falta implementar!");
+        }
+
+        function acessar(){
+            alert("Falta implementar!");
+        }
+    </script>
+</body>
+</html>
